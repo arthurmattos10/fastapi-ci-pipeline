@@ -8,5 +8,5 @@ def read_root():
 
 @app.get("/somar/{a}/{b}")
 def somar(a: int, b: int):
-    # ERRO INTENCIONAL
-    return {"resultado": a - b}
+    
+    return {"resultado": a + b}
