@@ -1,4 +1,3 @@
-fastapi
-uvicorn
+fastapi[standard]
 pytest
 httpx
